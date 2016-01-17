@@ -1,0 +1,8 @@
+{
+  "run_list": [
+"tomberi::default"
+  ],
+  "automatic": {
+    "ipaddress": "localhost"
+  }
+}

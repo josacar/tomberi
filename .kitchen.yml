@@ -1,0 +1,18 @@
+---
+driver:
+  name: vagrant
+
+provisioner:
+  name: chef_zero
+
+platforms:
+  - name: debian-8.2
+
+verifier:
+  name: inspec
+
+suites:
+  - name: tomberi
+    run_list:
+      - recipe[ntp::default]
+    attributes:

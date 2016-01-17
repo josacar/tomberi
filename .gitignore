@@ -1,0 +1,7 @@
+cookbooks/
+vendor/
+.bundle/
+tmp/
+.kitchen/
+.kitchen.local.yml
+.librarian/
