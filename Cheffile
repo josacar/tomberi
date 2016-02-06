@@ -1,4 +1,0 @@
-site 'http://supermarket.chef.io/api/v1'
-
-cookbook 'letsencrypt', github: 'schubergphilis/letsencrypt'
-cookbook 'ntp'

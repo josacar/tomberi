@@ -2,7 +2,7 @@ source "https://rubygems.org"
 
 gem 'knife-solo'
 gem 'chef'
-gem 'librarian-chef'
+gem 'berkshelf', '~> 4.1'
 
 group :test do
   gem 'knife-spec'

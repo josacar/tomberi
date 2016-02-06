@@ -32,5 +32,7 @@ bundle exec kitchen test
 
 ## Annex
 
+- https://github.com/applicationsonline/librarian-chef
 - https://matschaffer.github.io/knife-solo/
 - https://github.com/matschaffer/knife-solo/wiki/Berkshelf-&-Librarian-Chef-integration
+- https://github.com/chef/inspec/blob/master/examples/kitchen-chef/.kitchen.yml
