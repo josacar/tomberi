@@ -1,12 +1,17 @@
 DEPENDENCIES
   tomberi
-    path: site-cookbooks/tomberi
+    path: .
+    metadata: true
+  tomberi_test
+    path: test/cookbooks/tomberi_test
 
 GRAPH
   chef_handler (1.2.0)
   ntp (1.10.1)
     windows (>= 0.0.0)
   tomberi (0.1.0)
-    ntp (~> 1.10)
+    ntp (>= 0.0.0)
+  tomberi_test (0.0.0)
+    tomberi (>= 0.0.0)
   windows (1.39.1)
     chef_handler (>= 0.0.0)

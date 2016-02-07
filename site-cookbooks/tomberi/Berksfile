@@ -1,0 +1,5 @@
+source 'https://supermarket.chef.io'
+
+metadata
+
+cookbook 'tomberi_test', path: 'test/cookbooks/tomberi_test'

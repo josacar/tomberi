@@ -1,8 +1,8 @@
 # Added by ChefSpec
 require 'chefspec'
 
-# Uncomment to use ChefSpec's librarian extension
-require 'chefspec/librarian'
+# Uncomment to use ChefSpec's berkshelf extension
+require 'chefspec/berkshelf'
 
 RSpec.configure do |config|
   # Specify the path for Chef Solo to find cookbooks

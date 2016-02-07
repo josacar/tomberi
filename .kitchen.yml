@@ -14,5 +14,5 @@ verifier:
 suites:
   - name: tomberi
     run_list:
-      - recipe[ntp::default]
+      - recipe[tomberi::ntp]
     attributes:
