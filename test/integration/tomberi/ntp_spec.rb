@@ -7,7 +7,6 @@ control '01' do
   title 'Verify ntp service'
   desc 'Ensures ntp service is up and running'
   describe service('ntp') do
-    # it { should be_enabled }
     it { should be_installed }
     it { should be_running }
   end
