@@ -4,4 +4,4 @@ vendor/
 tmp/
 .kitchen/
 .kitchen.local.yml
-.librarian/
+.berkshelf/

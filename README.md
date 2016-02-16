@@ -19,6 +19,12 @@ bundle exec knife solo prepare HOST
 bundle exec rspec
 ```
 
+or if yo want to use [ChefDK](https://downloads.chef.io/chef-dk/)
+
+```bash
+chef exec rspec
+```
+
 ### Test-Kitchen
 
 ```bash
