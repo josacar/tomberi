@@ -10,6 +10,7 @@ platforms:
 
 verifier:
   name: inspec
+  format: doc
 
 require_chef_omnibus: 12.9.38
 
@@ -18,4 +19,5 @@ suites:
     run_list:
       - recipe[tomberi::ntp]
       - recipe[tomberi::nginx]
+      - recipe[tomberi::munin]
     attributes:
