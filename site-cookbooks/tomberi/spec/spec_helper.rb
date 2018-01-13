@@ -21,5 +21,5 @@ RSpec.configure do |config|
   config.platform = 'debian'
 
   # Specify the operating version to mock Ohai data from
-  config.version = '8.2'
+  config.version = '9.0'
 end
