@@ -1,1 +1,1 @@
-default['nginx']['repo_source'] = 'nginx'
+default['nginx']['repo_source'] = 'debian'
