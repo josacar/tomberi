@@ -1,4 +1,6 @@
 ## Bootstrap
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fjosacar%2Ftomberi.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fjosacar%2Ftomberi?ref=badge_shield)
+
 
 ```bash
 bundle --path vendor/bundle -j4
@@ -43,3 +45,7 @@ bundle exec kitchen test
 - https://github.com/matschaffer/knife-solo/wiki/Berkshelf-&-Librarian-Chef-integration
 - https://github.com/chef/inspec/blob/master/examples/kitchen-chef/.kitchen.yml
 - https://docs.chef.io/config_yml_kitchen.html
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fjosacar%2Ftomberi.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fjosacar%2Ftomberi?ref=badge_large)
